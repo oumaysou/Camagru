@@ -1,0 +1,31 @@
+*, html, body {
+	margin: 0;
+}
+
+form {
+	background-image: url(https://static1.squarespace.com/static/56985457dc5cb46161e3e4af/t/598cf565f5e231b0c15b89b6/1502410094454/LightConfBackground.png?format=1500w);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+form input:hover {
+	background-color: rgba(81, 202, 188, 0.5);
+}
+
+form input {
+	margin: 10px;
+	background-color: rgb(81, 202, 188);
+	width: 150px;
+	height: 70px;
+	border: none;
+	border-radius: 20px;
+	font-size: 22px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}

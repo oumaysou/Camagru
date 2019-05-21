@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.filter {
+	display: flex;
+	align-items: center;
+}
+
+.display-filter {
+	display: flex;
+	flex-direction: column;
+}
+.head-msg {
+	font-size: 38px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.allPhotos {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wrapper-photo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: .5s
+}
+
+.wrapper-photo:hover {
+	transform: scale(1.1);
+}
+
+.each-photo {
+	margin: 15px;
+	box-shadow: 4px -2px 10px 0px grey;
+}
+
+.how-many-like {
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.how-many-comment {
+	font-size: 16px;
+	margin-left: 15px;
+}
+
+.comment-logo {
+	display: flex;
+	margin-left: 10px;
+}
+
+.like-and-comment {
+	display: flex;
+	align-items: flex-end;
+}
+
+.like-and-comment:hover {
+	cursor: pointer;
+}
+
+#img-login {
+	margin-top: 20%;
+}
+
+.pagination {
+	margin: 10px 0;
+}
+
+@media screen and (max-width:600px)
+{
+	.filter {
+		flex-direction: column;
+	}
+	.allPhotos {
+		flex-direction: column;
+	}
+
+}

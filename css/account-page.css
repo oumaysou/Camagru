@@ -1,0 +1,139 @@
+.hashtag-msg {
+	font-family: Brush Script MT, cursive;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.user {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-info {
+	display: inline-flex;
+	justify-content: initial;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(https://i.pinimg.com/736x/70/23/17/7023171f5e9f9f9979997f9dcf10f398--ideas-scrapbooking-brahma.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 412px;
+	width: 344px;
+	margin-right: 100px;
+}
+
+.info {
+	font-family: New Century Schoolbook, serif;
+	font-size: 18px;
+}
+
+.change-user-info {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(255,255,255,0.4);
+	width: 361px;
+	height: 620px;
+	padding: 0 20px 0 20px;
+}
+
+.wrapper {
+	display: flex;
+}
+.wrapper-modifier {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/photo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 600px;
+	margin-bottom: 50px;
+}
+
+.text {
+	font-family: New Century Schoolbook, serif;
+	font-size: 18px;
+}
+
+.input-change {
+	border: 0.5px solid grey;
+	height: 27px;
+	font-size: 14px;
+	color: black;
+	width: 350px;
+	margin: 2px;
+	text-align: center;
+}
+
+.option-mail-comment {
+	margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width:1080px)
+{
+	.wrapper {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.user-info {
+		margin: 0;
+	}
+}
+
+.validate-submit:hover {
+	background-color: rgba(81, 202, 188, 0.5);
+}
+
+.validate-change-submit {
+	margin: 5px 0;
+	padding: 0 8px;
+	border: none;
+	height: 25px;
+	background-color: rgba(81, 202, 188, 0.8);
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.delete-account-submit {
+	margin: 5px 0;
+	padding: 0 8px;
+	border: none;
+	height: 25px;
+	background-color: rgba(81, 202, 188, 0.8);
+	font-size: 16px;
+	text-decoration: none;
+}
+
+@media screen and (max-width:360px)
+{
+	.input-change {
+		width: 100%;
+		height: 85%;
+	}
+	.validate-change-submit, .delete-account-submit {
+		font-size: 60%;
+	}
+	.validate-change-submit {
+		width: 80%;
+	}
+	.delete-account-submit {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:620px)
+{
+	.wrapper-modifier {
+		width: 100%;
+		height: 100%;
+	}
+}

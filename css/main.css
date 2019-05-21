@@ -1,0 +1,92 @@
+*, html, body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+}
+
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.success {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(81, 202, 188, 0.6);
+	width: 100%;
+	padding: 15px 25px;
+	font-size: 16px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+
+.danger {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255, 51, 51, 0.9);
+	width: 100%;
+	padding: 15px 25px;
+	font-size: 16px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+
+.title-msg {
+	margin-top: 10px;
+	font-size: 62px;
+	font-family: New Century Schoolbook, serif;
+	font-variant: small-caps;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wrapper-form-reset {
+	margin-top: 20px;
+}
+
+.hashtag-msg {
+	font-family: Brush Script MT, cursive;
+	font-size:55px;
+	padding-bottom: 20px;
+}
+@media screen and (max-width:900px) {
+	.title-msg {
+		font-size: 250%;
+	}
+}
+
+@media screen and (max-width:636px) {
+	.success {
+		height: 100%;
+		font-size: 100%;
+	}
+	.danger {
+		height: 100%;
+		font-size: 100%;
+	}
+	.hashtag-msg {
+		font-size: 150%;
+	}
+}

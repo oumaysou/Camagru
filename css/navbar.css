@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	justify-content: center;
+	background-color:  rgb(81, 202, 188);
+	height: 60px;
+	width: 100%;
+	font-family: 14px;
+}
+
+.user-input {
+	text-decoration: none;
+	margin: 16px;
+	margin-right: 20px;
+	border: none;
+	background-color: rgb(81, 202, 188);
+	color: white;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+}
+
+.wrapper-navbar {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+@media screen and (max-width:600px) {
+	.header {
+		height: 100%;
+	}
+	.user-input {
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width:360px)
+{
+	.header {
+		height: 80%;
+	}
+	.user-input {
+		font-size: 40%;
+	}
+}

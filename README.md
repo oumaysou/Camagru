@@ -1,6 +1,6 @@
 # A 42's project - An instagram-like
 
-Sujet : https://www.github.com/oumaysou/camagru/camagru.fr.pdf
+Sujet : https://github.com/oumaysou/camagru/blob/master/camagru.fr.pdf
 
 Premier Projet de la branche WEB.
 

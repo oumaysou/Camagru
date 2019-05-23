@@ -39,7 +39,7 @@ if (!empty($_POST) && isset($_POST['commentaire']) && $_POST['commentaire'] != "
 		]);
 		$reqanswer = $requser->fetchAll();
 		//SECOND REQUEST TO SEND A MAIL TO THE OWNER OF THE PHOTO
-		$userInfo = $pdo->prepare('SELECT * FROM user WHERE id = :userid');
+		$userInfo = $pdo->prepare('SELECT * FROM User WHERE id = :userid');
 		$userInfo->execute([
 			'userid' => $reqanswer[0]->user_id
 		]);

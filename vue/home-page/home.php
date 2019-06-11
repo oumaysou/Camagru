@@ -23,8 +23,8 @@ require_once dirname(__FILE__) . '/../navbar/navbar.php';
 		<video id="video" class="webcam-live" autoplay></video>
 		<canvas id="canvas" style="display:none;"></canvas>
 		<label><input type="file" name="MAX_FILE_SIZE" value=50000 name="img" onchange="get_img_upload(this)"/></label>
-		<button id="sendbutton" >Envoyer la photo</button>
-		<button id="startbutton">Prendre une photo</button>
+		<button id="sendbutton" disabled>Envoyer la photo</button>
+		<button id="startbutton" disabled>Prendre une photo</button>
 	</div>
 	<div class="wrapper-user-photo">
 		<?php

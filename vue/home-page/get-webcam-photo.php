@@ -24,11 +24,11 @@ if (!empty($_POST) && isset($_POST['data']))
 	header ("Content-type: image/png");
 	header("Content-type: image");
 	if ($filter == "1")
-		$source = imagecreatefrompng("../../images/DONUT.png");
+		$source = imagecreatefrompng("../../images/donut.png");
 	else if ($filter == "2")
 		$source = imagecreatefrompng("../../images/pizza.png");
 	else if ($filter == "3")
-		$source = imagecreatefrompng("../../images/POW.png");
+		$source = imagecreatefrompng("../../images/pow.png");
 	$largeur_source = imagesx($source);
 	$hauteur_source = imagesy($source);
 	imagealphablending($source, true);

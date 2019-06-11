@@ -32,8 +32,8 @@ if (!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password']))
 	<div class="background-login">
 		<form class="form-login" action="" method="post">
 			<div class="wrapper-form">
-			<input class="input-login" type="text" name="username" title="identifiant" placeholder="Identifiant"/><br/>
-			<input class="input-login" type="password" name="password" title="password" placeholder="Mot de Passe"/><br/>
+			<input class="input-login" type="text" name="username" title="identifiant" placeholder="Identifiant" autocomplete="off"/><br/>
+			<input class="input-login" type="password" name="password" title="password" placeholder="Mot de Passe" autocomplete="off"/><br/>
 			<input class="login-submit" type="submit" value="Se Connecter"><br/>
 		</div>
 		</form>
